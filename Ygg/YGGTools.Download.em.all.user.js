@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name         YGGTools - Download'em all!
 // @namespace    YGGTools
-// @version      0.1.0
+// @version      0.2.0
 // @description  Ajout du téléchargement de tous les torrents présents sur un résultat de recherche.
 // @author       Esperlu3tte
 // @supportURL   https://www3.yggtorrent.qa/profile/958029-esperlu3tte
@@ -12,7 +12,9 @@
 // @icon         https://raw.githubusercontent.com/esperlu3tte/UserScripts/master/Ygg/icon.ico
 // @license      Unlicense
 // @include      https://*.yggtorrent.*/engine/search?*
+// @include      https://*.ygg.*/engine/search?*
 // @include      https://*.yggtorrent.*/torrents/exclus
+// @include      https://*.ygg.*/torrents/exclus
 // @grant        GM.download
 // @connect      self
 // ==/UserScript==
